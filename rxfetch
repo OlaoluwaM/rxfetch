@@ -129,7 +129,7 @@ get_de_wm() {
 			-e "monsterwm" \
 			-e "tinywm" \
 			-e "xmonad")
-	
+
 	echo ${wm:-unknown}
 }
 
@@ -146,5 +146,5 @@ echo -e "               ${c2}de/wm${c3}  $(get_de_wm)"
 echo -e "               ${c7}up${c3}    $(get_uptime)"
 echo -e "               ${c6}disk${c3}   $(get_storage_info)"
 echo -e "               "
-echo -e "        ${c6}󰮯  ${c6}${c2}󰊠  ${c2}${c4}󰊠  ${c4}${c5}󰊠  ${c5}${c7}󰊠  ${c7}"
+echo -e "               Surpass Your Limits ~ Yami Sukehiro                        "
 echo -e "               \033[0m"
